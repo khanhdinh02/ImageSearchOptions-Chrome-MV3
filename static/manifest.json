@@ -4,12 +4,7 @@
   "version": "1.0.0",
   "permissions": [
     "storage",
-    "contextMenus",
-    "tabs"
-  ],
-  "host_permissions": [
-    "http://*/*",
-    "https://*/*"
+    "contextMenus"
   ],
   "background": {
     "service_worker": "event-page.js"
